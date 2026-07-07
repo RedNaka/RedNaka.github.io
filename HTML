@@ -3,57 +3,282 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <!-- ==========================================
+         BASIC META
+    =========================================== -->
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-<title>
-Gombak–Hulu Langat Geopark
-</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-<meta
-name="description"
-content="Portal rasmi Gombak–Hulu Langat Geopark">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
 
-<meta
-name="keywords"
-content="Geopark,Gombak,Hulu Langat,UNESCO">
+    <!-- ==========================================
+         SEO
+    =========================================== -->
 
-<meta
-name="author"
-content="RedNaka">
+    <title>
+        Gombak–Hulu Langat Geopark | Portal Rasmi
+    </title>
 
-<link rel="icon"
-href="assets/logo/favicon.ico">
+    <meta name="description"
+          content="Portal rasmi Gombak–Hulu Langat Geopark yang memaparkan maklumat geotapak, biodiversiti, warisan budaya, komuniti dan destinasi pelancongan.">
 
-<link
-rel="preconnect"
-href="https://fonts.googleapis.com">
+    <meta name="keywords"
+          content="Gombak Hulu Langat Geopark, UNESCO Global Geopark, Geotapak, GeoKomuniti, Selangor, Malaysia">
 
-<link
-rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
+    <meta name="author"
+          content="RedNaka">
 
-<link
-href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-rel="stylesheet">
+    <meta name="robots"
+          content="index, follow">
 
-<link
-rel="stylesheet"
-href="css/variables.css">
+    <!-- ==========================================
+         OPEN GRAPH
+    =========================================== -->
 
-<link
-rel="stylesheet"
-href="css/style.css">
+    <meta property="og:title"
+          content="Gombak–Hulu Langat Geopark">
 
-<link
-rel="stylesheet"
-href="css/animation.css">
+    <meta property="og:description"
+          content="Terokai warisan geologi, biodiversiti dan budaya Gombak–Hulu Langat Geopark.">
 
-<link
-rel="stylesheet"
-href="css/responsive.css">
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:image"
+          content="assets/images/og-image.jpg">
+
+    <meta property="og:url"
+          content="https://rednaka.github.io/">
+
+    <!-- ==========================================
+         TWITTER
+    =========================================== -->
+
+    <meta name="twitter:card"
+          content="summary_large_image">
+
+    <!-- ==========================================
+         FAVICON
+    =========================================== -->
+
+    <link rel="icon"
+          href="assets/logo/favicon.ico">
+
+    <!-- ==========================================
+         GOOGLE FONT
+    =========================================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- ==========================================
+         FONT AWESOME
+    =========================================== -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- ==========================================
+         CSS
+    =========================================== -->
+
+    <link rel="stylesheet"
+          href="css/variables.css">
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link rel="stylesheet"
+          href="css/animation.css">
+
+    <link rel="stylesheet"
+          href="css/responsive.css">
 
 </head>
+
+<body>
+
+<!-- ==========================================
+     PRELOADER
+========================================== -->
+
+<div id="preloader">
+
+    <div class="loader"></div>
+
+</div>
+
+<!-- ==========================================
+     SCROLL PROGRESS
+========================================== -->
+
+<div id="progressBar"></div>
+
+<!-- ==========================================
+     HEADER
+========================================== -->
+
+<header class="header">
+
+    <div class="container">
+
+        <!-- Logo -->
+
+        <a href="index.html"
+           class="logo">
+
+            <img src="assets/logo/logo.png"
+                 alt="Gombak Hulu Langat Geopark Logo">
+
+            <div class="logo-text">
+
+                <span>Gombak–Hulu Langat</span>
+
+                <strong>GEOPARK</strong>
+
+            </div>
+
+        </a>
+
+        <!-- Desktop Navigation -->
+
+        <nav class="navbar"
+             aria-label="Main Navigation">
+
+            <ul class="nav-menu">
+
+                <li>
+                    <a href="index.html"
+                       class="active">
+                        Utama
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        Pengenalan
+                    </a>
+                </li>
+
+                <li>
+                    <a href="geosites.html">
+                        Geotapak
+                    </a>
+                </li>
+
+                <li>
+                    <a href="gallery.html">
+                        Galeri
+                    </a>
+                </li>
+
+                <li>
+                    <a href="community.html">
+                        GeoKomuniti
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Hubungi
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <!-- Right Side -->
+
+        <div class="header-actions">
+
+            <button id="themeToggle"
+                    aria-label="Toggle Theme">
+
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+            <button id="mobileMenuBtn"
+                    class="mobile-btn"
+                    aria-label="Open Menu">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+<!-- ==========================================
+     MOBILE NAVIGATION
+========================================== -->
+
+<div id="mobileMenu"
+     class="mobile-menu">
+
+    <div class="mobile-header">
+
+        <h3>Menu</h3>
+
+        <button id="closeMenu">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+    </div>
+
+    <ul>
+
+        <li>
+            <a href="index.html">Utama</a>
+        </li>
+
+        <li>
+            <a href="about.html">Pengenalan</a>
+        </li>
+
+        <li>
+            <a href="geosites.html">Geotapak</a>
+        </li>
+
+        <li>
+            <a href="gallery.html">Galeri</a>
+        </li>
+
+        <li>
+            <a href="community.html">GeoKomuniti</a>
+        </li>
+
+        <li>
+            <a href="contact.html">Hubungi</a>
+        </li>
+
+    </ul>
+
+</div>
+
+<!-- ==========================================
+     OVERLAY
+========================================== -->
+
+<div id="overlay"></div>
+
+<!-- ==========================================
+     HERO SECTION BERMULA PADA BAHAGIAN 2
+========================================== -->
