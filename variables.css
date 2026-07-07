@@ -1,0 +1,111 @@
+/* ==========================================================
+   GOMBAK–HULU LANGAT GEOPARK
+   variables.css
+   Version : 3.0
+   Author  : RedNaka
+   ========================================================== */
+
+:root {
+
+    /* ======================================================
+       BRAND COLORS
+    ====================================================== */
+
+    --color-primary: #0f766e;
+    --color-primary-dark: #115e59;
+    --color-primary-light: #14b8a6;
+
+    --color-secondary: #f59e0b;
+    --color-secondary-dark: #d97706;
+    --color-secondary-light: #fbbf24;
+
+    --color-accent: #2563eb;
+
+    --color-success: #16a34a;
+    --color-warning: #f59e0b;
+    --color-danger: #dc2626;
+    --color-info: #0284c7;
+
+    /* ======================================================
+       NEUTRAL COLORS
+    ====================================================== */
+
+    --white: #ffffff;
+    --black: #000000;
+
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+
+    /* ======================================================
+       TEXT COLORS
+    ====================================================== */
+
+    --text-heading: var(--gray-900);
+    --text-body: var(--gray-700);
+    --text-muted: var(--gray-500);
+    --text-light: var(--white);
+
+    /* ======================================================
+       BACKGROUND
+    ====================================================== */
+
+    --background-body: #ffffff;
+    --background-section: #f8fafc;
+    --background-card: #ffffff;
+    --background-footer: #0f172a;
+
+    /* ======================================================
+       TYPOGRAPHY
+    ====================================================== */
+
+    --font-family-base:
+        "Poppins",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    --font-family-heading:
+        "Poppins",
+        sans-serif;
+
+    /* ======================================================
+       FONT SIZE
+    ====================================================== */
+
+    --fs-100: 0.75rem;
+    --fs-200: 0.875rem;
+    --fs-300: 1rem;
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 2rem;
+    --fs-800: 2.75rem;
+    --fs-900: 3.5rem;
+
+    /* ======================================================
+       FONT WEIGHT
+    ====================================================== */
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-extra-bold: 800;
+
+    /* ======================================================
+       LINE HEIGHT
+    ====================================================== */
+
+    --lh-tight: 1.2;
+    --lh-normal: 1.5;
+    --lh-relaxed: 1.8;
+}
