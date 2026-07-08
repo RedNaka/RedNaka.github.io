@@ -109,3 +109,653 @@
     --lh-normal: 1.5;
     --lh-relaxed: 1.8;
 }
+
+:root {
+
+    /* ======================================================
+       SPACING SYSTEM
+       4px Base Scale
+    ====================================================== */
+
+    --space-0: 0;
+    --space-1: 0.25rem;     /* 4px */
+    --space-2: 0.50rem;     /* 8px */
+    --space-3: 0.75rem;     /* 12px */
+    --space-4: 1rem;        /* 16px */
+    --space-5: 1.25rem;     /* 20px */
+    --space-6: 1.50rem;     /* 24px */
+    --space-7: 2rem;        /* 32px */
+    --space-8: 2.50rem;     /* 40px */
+    --space-9: 3rem;        /* 48px */
+    --space-10: 4rem;       /* 64px */
+    --space-11: 5rem;       /* 80px */
+    --space-12: 6rem;       /* 96px */
+    --space-13: 8rem;       /* 128px */
+
+    /* ======================================================
+       SECTION SPACING
+    ====================================================== */
+
+    --section-padding-y: 6rem;
+    --section-padding-x: 1rem;
+
+    --section-gap-small: 2rem;
+    --section-gap-medium: 4rem;
+    --section-gap-large: 6rem;
+
+    /* ======================================================
+       CONTAINER SPACING
+    ====================================================== */
+
+    --container-padding: 1rem;
+    --card-padding: 2rem;
+    --button-padding-y: .875rem;
+    --button-padding-x: 2rem;
+
+    /* ======================================================
+       BORDER RADIUS
+    ====================================================== */
+
+    --radius-none: 0;
+
+    --radius-xs: .25rem;
+    --radius-sm: .50rem;
+    --radius-md: .75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+    --radius-2xl: 2rem;
+    --radius-3xl: 3rem;
+
+    --radius-circle: 50%;
+    --radius-pill: 999px;
+
+    /* ======================================================
+       BORDER WIDTH
+    ====================================================== */
+
+    --border-thin: 1px;
+    --border-medium: 2px;
+    --border-thick: 3px;
+
+    /* ======================================================
+       BORDER COLOR
+    ====================================================== */
+
+    --border-light: var(--gray-200);
+    --border-normal: var(--gray-300);
+    --border-dark: var(--gray-500);
+
+    --border-primary: var(--color-primary);
+    --border-secondary: var(--color-secondary);
+
+    /* ======================================================
+       SHADOW SYSTEM
+    ====================================================== */
+
+    --shadow-xs:
+        0 1px 2px rgba(0,0,0,.05);
+
+    --shadow-sm:
+        0 2px 8px rgba(0,0,0,.08);
+
+    --shadow-md:
+        0 8px 24px rgba(0,0,0,.10);
+
+    --shadow-lg:
+        0 15px 40px rgba(0,0,0,.15);
+
+    --shadow-xl:
+        0 25px 60px rgba(0,0,0,.20);
+
+    --shadow-primary:
+        0 12px 30px rgba(15,118,110,.25);
+
+    --shadow-secondary:
+        0 12px 30px rgba(245,158,11,.25);
+
+    /* ======================================================
+       CARD SHADOW
+    ====================================================== */
+
+    --card-shadow:
+        0 10px 25px rgba(0,0,0,.08);
+
+    --card-shadow-hover:
+        0 20px 50px rgba(0,0,0,.18);
+
+    /* ======================================================
+       BUTTON SHADOW
+    ====================================================== */
+
+    --button-shadow:
+        0 8px 20px rgba(15,118,110,.25);
+
+    --button-shadow-hover:
+        0 15px 35px rgba(15,118,110,.35);
+
+    /* ======================================================
+       IMAGE SHADOW
+    ====================================================== */
+
+    --image-shadow:
+        0 15px 45px rgba(0,0,0,.18);
+
+    /* ======================================================
+       GLASS EFFECT
+    ====================================================== */
+
+    --glass-background:
+        rgba(255,255,255,.18);
+
+    --glass-border:
+        rgba(255,255,255,.25);
+
+    --glass-shadow:
+        0 8px 30px rgba(0,0,0,.15);
+
+    --glass-blur:
+        blur(18px);
+
+    /* ======================================================
+       OVERLAY
+    ====================================================== */
+
+    --overlay-dark:
+        rgba(0,0,0,.65);
+
+    --overlay-light:
+        rgba(255,255,255,.60);
+
+    --overlay-primary:
+        rgba(15,118,110,.70);
+
+    --overlay-gradient:
+        linear-gradient(
+            to bottom,
+            rgba(0,0,0,.20),
+            rgba(0,0,0,.70)
+        );
+
+:root {
+
+       /* ======================================================
+       CONTAINER
+    ====================================================== */
+
+    --container-width-xs: 540px;
+    --container-width-sm: 720px;
+    --container-width-md: 960px;
+    --container-width-lg: 1140px;
+    --container-width-xl: 1320px;
+    --container-width-2xl: 1440px;
+
+    --container-max-width: var(--container-width-xl);
+
+    /* ======================================================
+       GRID SYSTEM
+    ====================================================== */
+
+    --grid-gap-xs: .75rem;
+    --grid-gap-sm: 1rem;
+    --grid-gap-md: 1.5rem;
+    --grid-gap-lg: 2rem;
+    --grid-gap-xl: 3rem;
+
+    --grid-columns: 12;
+
+    /* ======================================================
+       HEADER
+    ====================================================== */
+
+    --header-height: 80px;
+    --header-height-mobile: 70px;
+
+    --header-background:
+        rgba(255,255,255,.96);
+
+    --header-border:
+        rgba(229,231,235,.85);
+
+    --header-shadow:
+        0 5px 20px rgba(0,0,0,.08);
+
+    --header-backdrop:
+        blur(18px);
+
+    /* ======================================================
+       NAVIGATION
+    ====================================================== */
+
+    --nav-link-color: var(--text-heading);
+    --nav-link-hover: var(--color-primary);
+    --nav-link-active: var(--color-primary);
+
+    --nav-link-size: var(--fs-300);
+    --nav-link-weight: var(--fw-medium);
+
+    --nav-gap: 2rem;
+
+    /* ======================================================
+       LOGO
+    ====================================================== */
+
+    --logo-width: 56px;
+    --logo-height: 56px;
+
+    --logo-width-mobile: 46px;
+    --logo-height-mobile: 46px;
+
+    /* ======================================================
+       HERO SECTION
+    ====================================================== */
+
+    --hero-height: 100vh;
+    --hero-min-height: 720px;
+
+    --hero-overlay:
+        linear-gradient(
+            rgba(0,0,0,.35),
+            rgba(0,0,0,.65)
+        );
+
+    --hero-title-size: clamp(2.5rem, 5vw, 4.8rem);
+    --hero-subtitle-size: clamp(1rem, 2vw, 1.35rem);
+
+    --hero-content-width: 760px;
+
+    --hero-button-gap: 1rem;
+
+    /* ======================================================
+       HERO SEARCH
+    ====================================================== */
+
+    --search-height: 60px;
+
+    --search-radius: var(--radius-pill);
+
+    --search-background: var(--white);
+
+    --search-shadow:
+        0 10px 30px rgba(0,0,0,.18);
+
+    /* ======================================================
+       SECTION
+    ====================================================== */
+
+    --section-title-size:
+        clamp(2rem,4vw,3rem);
+
+    --section-subtitle-size:
+        1.1rem;
+
+    --section-title-weight:
+        var(--fw-bold);
+
+    /* ======================================================
+       CARD
+    ====================================================== */
+
+    --card-radius:
+        var(--radius-xl);
+
+    --card-background:
+        var(--white);
+
+    --card-border:
+        1px solid var(--border-light);
+
+    --card-hover-transform:
+        translateY(-10px);
+
+    /* ======================================================
+       IMAGE
+    ====================================================== */
+
+    --image-radius:
+        var(--radius-lg);
+
+    --image-hover-scale:
+        1.05;
+
+    /* ======================================================
+       FOOTER
+    ====================================================== */
+
+    --footer-background:
+        #08121d;
+
+    --footer-text:
+        rgba(255,255,255,.75);
+
+    --footer-heading:
+        #ffffff;
+
+    --footer-link:
+        rgba(255,255,255,.80);
+
+    --footer-link-hover:
+        var(--color-secondary);
+
+    --footer-padding:
+        5rem;
+
+    /* ======================================================
+       SOCIAL ICON
+    ====================================================== */
+
+    --social-size: 46px;
+
+    --social-radius:
+        var(--radius-circle);
+
+    --social-background:
+        rgba(255,255,255,.08);
+
+    --social-hover:
+        var(--color-primary);
+
+    /* ======================================================
+       PARTNER LOGO
+    ====================================================== */
+
+    --partner-logo-height: 70px;
+    --partner-logo-opacity: .75;
+
+    /* ======================================================
+       GALLERY
+    ====================================================== */
+
+    --gallery-gap:
+        1.5rem;
+
+    --gallery-radius:
+        var(--radius-lg);
+
+    /* ======================================================
+       FEATURED GEOSITES
+    ====================================================== */
+
+    --geosite-card-height: 460px;
+
+    --geosite-image-height: 240px;
+
+    /* ======================================================
+       MAP
+    ====================================================== */
+
+    --map-height: 550px;
+
+    --map-radius:
+        var(--radius-xl);
+
+    /* ======================================================
+       SIDEBAR (Future)
+    ====================================================== */
+
+    --sidebar-width: 320px;
+
+    /* ======================================================
+       MODAL
+    ====================================================== */
+
+    --modal-width: 900px;
+
+    --modal-radius:
+        var(--radius-xl);
+
+    /* ======================================================
+       DROPDOWN
+    ====================================================== */
+
+    --dropdown-radius:
+        var(--radius-lg);
+
+    --dropdown-shadow:
+        var(--shadow-lg);
+
+   :root {
+
+       /* ======================================================
+       BUTTON SYSTEM
+    ====================================================== */
+
+    --button-height: 56px;
+    --button-height-sm: 42px;
+    --button-height-lg: 64px;
+
+    --button-radius: var(--radius-pill);
+
+    --button-font-size: var(--fs-300);
+    --button-font-weight: var(--fw-semibold);
+
+    --button-padding-x: 2rem;
+    --button-padding-y: .875rem;
+
+    --button-primary-bg: var(--color-primary);
+    --button-primary-text: var(--white);
+
+    --button-primary-hover: var(--color-primary-dark);
+
+    --button-secondary-bg: var(--color-secondary);
+    --button-secondary-text: var(--white);
+
+    --button-outline-border:
+        var(--color-primary);
+
+    --button-outline-hover:
+        var(--color-primary);
+
+    /* ======================================================
+       INPUT & FORM
+    ====================================================== */
+
+    --input-height: 56px;
+
+    --input-radius:
+        var(--radius-lg);
+
+    --input-padding:
+        0 1.25rem;
+
+    --input-background:
+        var(--white);
+
+    --input-border:
+        var(--border-light);
+
+    --input-border-focus:
+        var(--color-primary);
+
+    --input-placeholder:
+        var(--gray-400);
+
+    --input-shadow-focus:
+        0 0 0 4px rgba(20,184,166,.15);
+
+    --textarea-height: 180px;
+
+    --label-color:
+        var(--text-heading);
+
+    /* ======================================================
+       BADGE
+    ====================================================== */
+
+    --badge-radius:
+        var(--radius-pill);
+
+    --badge-padding:
+        .40rem 1rem;
+
+    --badge-background:
+        rgba(15,118,110,.12);
+
+    --badge-color:
+        var(--color-primary);
+
+    /* ======================================================
+       ICON
+    ====================================================== */
+
+    --icon-size-xs: 14px;
+    --icon-size-sm: 18px;
+    --icon-size-md: 24px;
+    --icon-size-lg: 32px;
+    --icon-size-xl: 48px;
+
+    /* ======================================================
+       TRANSITION
+    ====================================================== */
+
+    --transition-fast:
+        .20s ease;
+
+    --transition-normal:
+        .35s ease;
+
+    --transition-slow:
+        .60s ease;
+
+    --transition-bounce:
+        cubic-bezier(.68,-0.55,.265,1.55);
+
+    /* ======================================================
+       ANIMATION
+    ====================================================== */
+
+    --animation-fast:
+        .3s;
+
+    --animation-normal:
+        .6s;
+
+    --animation-slow:
+        1s;
+
+    /* ======================================================
+       OPACITY
+    ====================================================== */
+
+    --opacity-disabled: .50;
+    --opacity-muted: .75;
+    --opacity-overlay: .85;
+
+    /* ======================================================
+       Z-INDEX
+    ====================================================== */
+
+    --z-hide: -1;
+
+    --z-base: 1;
+
+    --z-dropdown: 100;
+
+    --z-sticky: 500;
+
+    --z-fixed: 700;
+
+    --z-overlay: 900;
+
+    --z-modal: 1000;
+
+    --z-loader: 2000;
+
+    --z-tooltip: 3000;
+
+    /* ======================================================
+       BREAKPOINTS
+    ====================================================== */
+
+    --breakpoint-xs: 400px;
+
+    --breakpoint-sm: 576px;
+
+    --breakpoint-md: 768px;
+
+    --breakpoint-lg: 992px;
+
+    --breakpoint-xl: 1200px;
+
+    --breakpoint-xxl: 1400px;
+
+    --breakpoint-ultra: 1600px;
+
+    /* ======================================================
+       SCROLLBAR
+    ====================================================== */
+
+    --scrollbar-width: 10px;
+
+    --scrollbar-track:
+        var(--gray-100);
+
+    --scrollbar-thumb:
+        var(--color-primary);
+
+    --scrollbar-thumb-hover:
+        var(--color-primary-dark);
+
+    /* ======================================================
+       SELECTION
+    ====================================================== */
+
+    --selection-background:
+        var(--color-primary);
+
+    --selection-text:
+        var(--white);
+
+    /* ======================================================
+       LOADER
+    ====================================================== */
+
+    --loader-size: 54px;
+
+    --loader-border: 5px;
+
+    --loader-color:
+        var(--color-primary);
+
+    /* ======================================================
+       DARK THEME
+    ====================================================== */
+
+    --dark-body: #08111f;
+
+    --dark-surface: #101827;
+
+    --dark-card: #1b2535;
+
+    --dark-header: rgba(8,17,31,.95);
+
+    --dark-footer: #040b14;
+
+    --dark-text: #f5f5f5;
+
+    --dark-muted: #b8c0cc;
+
+    --dark-border: #273447;
+
+    --dark-shadow:
+        0 10px 40px rgba(0,0,0,.50);
+
+    /* ======================================================
+       ACCESSIBILITY
+    ====================================================== */
+
+    --focus-outline:
+        3px solid rgba(20,184,166,.35);
+
+    --focus-offset: 2px;
+
+    /* ======================================================
+       PRINT
+    ====================================================== */
+
+    --print-background:
+        #ffffff;
+
+    --print-text:
+        #000000;
+
+}
